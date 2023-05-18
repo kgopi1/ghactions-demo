@@ -38,4 +38,4 @@ jobs:
       - name: get ls
         run: |
           ls -la 
-        working-directory: $GITHUB_WORKSPACE
+        working-directory: .
