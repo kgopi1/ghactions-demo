@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: 
+      - name: get ls
         run: |
           ls -la 
-        WorkingDirectory: $GITHUB_WORKSPACE
+        working-directory: $GITHUB_WORKSPACE
